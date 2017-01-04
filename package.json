@@ -1,0 +1,31 @@
+{
+  "name": "ACF-Simply-Events",
+  "version": "1.0.0",
+  "description": "Simple Event Management with ACF Pro.",
+  "main": "Gruntfile.js",
+  "author": "Wolozo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wolozo/ACF-Simply-Events"
+  },
+  "bugs": {
+    "url": "https://github.com/Wolozo/ACF-Simply-Events/issues"
+  },
+  "license": "GPL-2.0+",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "cssnano": "^3.7.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0",
+    "jit-grunt": "^0.10.0",
+    "pixrem": "^3.0.1",
+    "time-grunt": "^1.4.0"
+  }
+}

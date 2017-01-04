@@ -1,0 +1,83 @@
+////
+/// Style
+////
+@import '../bower_components/scss-tackle-box/tackle-box';
+
+.w_se-outer {
+  box-sizing: border-box;
+
+  * { box-sizing: inherit; }
+}
+
+.w_se-content {
+  > div { margin-bottom: tb-mg-v(normal); }
+}
+
+.w_se-details {
+  @include tb-grid-group();
+}
+
+.w_se-section {
+  @include tb-grid-cell(1 of 2);
+  @include tb-grid-gutters();
+  margin-bottom: tb-mg-v(normal);
+}
+
+.w_se-heading { }
+
+span.w_se-heading { font-weight: bold; }
+
+.w_se-map-outer {
+  width: 100% !important;
+}
+
+.w_se-dateSep {
+  padding-right: tb-pd-h(xsm);
+  padding-left: tb-pd-h(xsm);
+}
+
+////
+// Images
+////
+.w_se-images {
+  @include tb-grid-group();
+  margin-left: 0;
+  list-style: none;
+  box-sizing: border-box;
+
+  li.w_se-images-item {
+    @include tb-grid-gutters();
+    margin-left: 0;
+    list-style: none;
+  }
+}
+
+////
+// Map
+////
+.w_se-map-content {
+  @include tb-grid-group();
+  margin-top: tb-mg-v(sm);
+
+  > div { @include tb-grid-gutters(); }
+
+  .w_se-section--address {
+    flex-shrink: 1;
+    width: auto !important;
+    min-width: 25%;
+  }
+}
+
+.acf-map {
+  flex-grow: 1;
+  width: auto;
+  min-width: 75%;
+  height: 400px;
+  border: #ccc solid 1px;
+  margin-bottom: tb-mg-v(normal);
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+  max-width: inherit !important;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ACF-Simply-Events",
+  "description": "Simple Event Management with ACF Pro.",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Wolozo"
+  ],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/Wolozo/ACF-Simply-Events",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scss-tackle-box": "~0.0"
+  }
+}
